@@ -54,7 +54,7 @@ secret = r.secret
 ### Back in R
 
 And finally, we're checking in R if `py$secret == secret`.
-(Variable `secret` from `python`.)
+(Variable `secret` from `py`.)
 
 ```{r}
 if (py$secret == secret) {
