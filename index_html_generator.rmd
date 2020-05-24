@@ -86,7 +86,8 @@ All done!
 ---
 
 **The complete `R Markdown` code for `rpython_markdown.rmd`
-is below.**
+is below and here 
+https://github.com/rmelikov/rpython_markdown/blob/master/rpython_markdown.rmd.**
 
 ````markdown
 
