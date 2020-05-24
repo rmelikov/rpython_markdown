@@ -9,6 +9,7 @@ current_date <- format(
 title: R and Python in R Markdown
 subtitle: Variables get passed
   from code chunk to code chunk
+author: 'https://github.com/rmelikov/rpython_markdown'
 # author:
   # name: Ramin Melikov
   # affiliation:
@@ -86,7 +87,7 @@ All done!
 ---
 
 **The complete `R Markdown` code for `rpython_markdown.rmd`
-is below and here 
+is below and here
 https://github.com/rmelikov/rpython_markdown/blob/master/rpython_markdown.rmd.**
 
 ````markdown
