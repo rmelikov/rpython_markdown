@@ -1,10 +1,3 @@
-```{r echo = FALSE}
-current_date <- format(
-  as.POSIXct(Sys.Date()),
-  '%B %d, %Y'
-)
-```
-
 ---
 title: R and Python in R Markdown
 subtitle: Variables get passed
@@ -21,7 +14,7 @@ author: 'https://github.com/rmelikov/rpython_markdown'
   # affiliation: University of
   #   Illinois at Urbana-Champaign
   # email: melikov2@illinois.edu
-# date: "`r current_date`"
+# date: "`r format(as.POSIXct(Sys.Date()), '%B %d, %Y')`"
 output:
   html_document:
     toc: false
@@ -91,14 +84,6 @@ is below and here
 https://github.com/rmelikov/rpython_markdown/blob/master/rpython_markdown.rmd.**
 
 ````markdown
-
-`r ''````{r echo = FALSE}
-current_date <- format(
-  as.POSIXct(Sys.Date()),
-  '%B %d, %Y'
-)
-```
-
 ---
 title: R and Python in R Markdown
 subtitle: Variables get passed
@@ -115,7 +100,7 @@ author: 'https://github.com/rmelikov/rpython_markdown'
   # affiliation: University of
   #   Illinois at Urbana-Champaign
   # email: melikov2@illinois.edu
-# date: '`r "\u0060r current_date\u0060"`'
+# date: '`r "\u0060r format(as.POSIXct(Sys.Date()), '%B %d, %Y')\u0060"`'
 
 output:
   html_document:
